@@ -804,14 +804,6 @@ blockquote {
   font-style: italic;
   color: #666666;
 }
-#header3-2 .display-1 {
-  font-weight: 700;
-}
-#header3-2 .lead {
-  color: #fff;
-  text-transform: uppercase;
-  margin-bottom: 0;
-}
 #menu-3 .hide-buttons .nav-btn {
   display: none !important;
 }
