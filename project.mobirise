@@ -213,8 +213,9 @@
             "video": {
               "active": true,
               "src": "https://www.youtube.com/watch?v=ilF1393cYWc&feature=emb_logo",
-              "autoplay": false,
-              "loop": false
+              "autoplay": "on",
+              "loop": "on",
+              "aspectratio": "4:3"
             }
           },
           "text": "<p>Cut down the development time with drag-and-drop website builder.</p>",
