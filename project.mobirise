@@ -231,8 +231,8 @@
               "height": 720
             },
             "overlay": true,
-            "overlayColor": "#f500dd",
-            "overlayOpacity": "0.7"
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.6"
           },
           "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
           "title": "BEAUTIFUL<br>MOBILE<br>WEBSITES",
