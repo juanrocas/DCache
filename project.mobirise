@@ -28,7 +28,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.1",
     "siteFonts": [],
-    "uniqCompNum": 10,
+    "uniqCompNum": 11,
     "versionPublish": "4.10.1",
     "screenshot": "screenshot.png"
   },
@@ -104,7 +104,7 @@
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
-            "transparent": false,
+            "transparent": true,
             "bgColor": "#f500dd",
             "fontSize": "4",
             "fontName": {},
@@ -202,28 +202,48 @@
           "_customTemplate": true
         },
         {
-          "_params": {
-            "showText": false
-          },
-          "media": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/image1.jpg",
-              "width": 1400
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
             },
-            "video": {
-              "active": true,
-              "src": "https://www.youtube.com/watch?v=ilF1393cYWc&feature=emb_logo",
-              "autoplay": "on",
-              "loop": "on",
-              "aspectratio": "4:3"
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
             }
           },
-          "text": "<p>Cut down the development time with drag-and-drop website builder.</p>",
+          "_params": {
+            "showTitle": false,
+            "showText": true,
+            "showButtons": true,
+            "buttonAlign": "left",
+            "showArrow": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#16a085",
+            "bgVideoRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/embed/ilF1393cYWc?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://www.youtube.com/watch?v=ilF1393cYWc&feature=emb_logo",
+              "width": 1280,
+              "height": 720
+            },
+            "overlay": true,
+            "overlayColor": "#f500dd",
+            "overlayOpacity": "0.7"
+          },
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
+          "title": "BEAUTIFUL<br>MOBILE<br>WEBSITES",
+          "text": "BEST BEAUTY SALON IN MOUNTAIN VIEW",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ESPAÑOL</a> <a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ENGLISH</a>",
+          "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "video1",
-          "_anchor": "video1-9"
+          "_name": "header3",
+          "_anchor": "header3-a"
         }
       ]
     },
@@ -294,7 +314,7 @@
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
-            "transparent": false,
+            "transparent": true,
             "bgColor": "#f500dd",
             "fontSize": "4",
             "fontName": {},
