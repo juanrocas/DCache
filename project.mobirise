@@ -28,7 +28,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.1",
     "siteFonts": [],
-    "uniqCompNum": 8,
+    "uniqCompNum": 10,
     "versionPublish": "4.10.1",
     "screenshot": "screenshot.png"
   },
@@ -76,13 +76,13 @@
               "color": "#ffffff"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
+              "background": "#c200af"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#000000!important"
+              "background": "#e600cf!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#000000"
+              "background": "#f500dd"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -105,13 +105,13 @@
             "sticky": true,
             "collapsed": true,
             "transparent": false,
-            "bgColor": "#000000",
+            "bgColor": "#f500dd",
             "fontSize": "4",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"tel:6506258991\">CALL NOW!</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"tel:6506258991\">CALL NOW!</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -195,7 +195,7 @@
           ],
           "_name": "footer7",
           "_anchor": "footer7-4",
-          "_customHTML": "<footer class=\"mbr-small-footer mbr-section mbr-section-nopadding footer1 footer7 mbr-parallax-background mbr-after-navbar\" data-rv-view=\"9\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/mbr-1920x1370.jpg&quot;); padding-top: 1.75rem; padding-bottom: 0rem;\">\n    <div class=\"mbr-overlay\" style=\"opacity: 0.5; background-color: rgb(245, 0, 221);\"></div>\n    <div class=\"container-fluid\">\n    \t\n        <div class=\"row\">\n        <div class=\"col-xs-12\">\n\n            <div class=\"col-xs-12 col-lg-2 text-xs-center text-lg-left table-cell-lg table-cell-middle\">\n                <div class=\"logo\"><a href=\"index.html\"><img src=\"@PROJECT_PATH@/assets/images/muneca-171x128.png\" alt=\"Mobirise\"></a></div>\n            </div>\n\n            <div class=\"col-xs-12 col-lg-8 footer-list-2 text-xs-center table-cell-lg table-cell-middle\">\n                <div class=\"col-xs-12 col-md-4\">\n                    <p class=\"mbr-section-subtitle display-3 mbr-editable-content\" code-editable-id=\"50\"><a href=\"index.html\" class=\"text-warning\">Private policy</a></p>\n                </div>\n                <div class=\"col-xs-12 col-md-4\">\n                    <p class=\"mbr-section-subtitle display-3 mbr-editable-content\" code-editable-id=\"51\"><a href=\"index.html\" class=\"text-warning\">Terms &amp; Conditions</a></p>\n                </div>\n                <div class=\"col-xs-12 col-md-4\">\n                    <p class=\"mbr-section-subtitle display-3 mbr-editable-content\" code-editable-id=\"52\"><a href=\"index.html\" class=\"text-warning\">Copyright Notifications</a></p>\n                </div>\n            </div>\n\n            <div class=\"col-xs-12 col-lg-2 text-xs-center text-lg-left table-cell-lg table-cell-middle\">\n              <div class=\"mbr-section-btn\"><a class=\"btn btn-icon mbr-editable-button\" href=\"https://mobirise.com\" code-editable-id=\"53\"></a><a class=\"btn btn-icon mbr-editable-button\" href=\"https://mobirise.com\" code-editable-id=\"54\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a class=\"btn btn-icon mbr-editable-button\" href=\"https://mobirise.com\" code-editable-id=\"55\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a class=\"btn btn-icon mbr-editable-button\" href=\"https://mobirise.com\" code-editable-id=\"56\"><span class=\"fa fa-facebook-square mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n\n        </div>\n        </div>\n    </div>\n    \n</footer>",
+          "_customHTML": "<footer class=\"mbr-small-footer mbr-section mbr-section-nopadding footer1 footer7 mbr-parallax-background mbr-after-navbar\" data-rv-view=\"9\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/mbr-1920x1370.jpg&quot;); padding-top: 1.75rem; padding-bottom: 0rem;\">\n    <div class=\"mbr-overlay\" style=\"opacity: 0.5; background-color: rgb(245, 0, 221);\"></div>\n    <div class=\"container-fluid\">\n    \t\n        <div class=\"row\">\n        <div class=\"col-xs-12\">\n\n            <div class=\"col-xs-12 col-lg-2 text-xs-center text-lg-left table-cell-lg table-cell-middle\">\n                <div class=\"logo\"><a href=\"index.html\"><img src=\"@PROJECT_PATH@/assets/images/muneca-171x128.png\" alt=\"Mobirise\"></a></div>\n            </div>\n\n            <div class=\"col-xs-12 col-lg-8 footer-list-2 text-xs-center table-cell-lg table-cell-middle\">\n                <div class=\"col-xs-12 col-md-4\">\n                    <p class=\"mbr-section-subtitle display-3 mbr-editable-content\" code-editable-id=\"64\"><a href=\"index.html\" class=\"text-warning\">Private policy</a></p>\n                </div>\n                <div class=\"col-xs-12 col-md-4\">\n                    <p class=\"mbr-section-subtitle display-3 mbr-editable-content\" code-editable-id=\"65\"><a href=\"index.html\" class=\"text-warning\">Terms &amp; Conditions</a></p>\n                </div>\n                <div class=\"col-xs-12 col-md-4\">\n                    <p class=\"mbr-section-subtitle display-3 mbr-editable-content\" code-editable-id=\"66\"><a href=\"index.html\" class=\"text-warning\">Copyright Notifications</a></p>\n                </div>\n            </div>\n\n            <div class=\"col-xs-12 col-lg-2 text-xs-center text-lg-left table-cell-lg table-cell-middle\">\n              <div class=\"mbr-section-btn\"><a class=\"btn btn-icon mbr-editable-button\" href=\"https://mobirise.com\" code-editable-id=\"67\"></a><a class=\"btn btn-icon mbr-editable-button\" href=\"https://mobirise.com\" code-editable-id=\"68\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a class=\"btn btn-icon mbr-editable-button\" href=\"https://mobirise.com\" code-editable-id=\"69\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a class=\"btn btn-icon mbr-editable-button\" href=\"https://mobirise.com\" code-editable-id=\"70\"><span class=\"fa fa-facebook-square mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n\n        </div>\n        </div>\n    </div>\n    \n</footer>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": "",
@@ -203,66 +203,26 @@
         },
         {
           "_params": {
-            "autoplay": true,
-            "animType": "kenburns",
-            "theme": "boundary",
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/mbr-1-1600x1080.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/mbr-1-1920x1280.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/mbr-1-85x48.png",
-                "title": "title 3",
-                "text": "text 3",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/mbr-1-1920x1370.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/mbr-1-1920x1280.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/mbr-1-85x48.png",
-                "title": "title 3",
-                "text": "text 3",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/mbr-3-1920x1280.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/mbr-1-1920x1280.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/mbr-1-85x48.png",
-                "title": "title 3",
-                "text": "text 3",
-                "active": true
-              }
-            ],
-            "fullScreen": true,
-            "showCaptions": false,
-            "hideControls": false,
-            "responsive": "3",
-            "paddingTop": 0,
-            "paddingBottom": "0",
-            "captionsEffect": "slide",
-            "showBullets": false,
-            "bgColor": "#ffffff",
-            "timeout": "5",
-            "duration": "3",
-            "customSize": false,
-            "customWidth": "1600",
-            "customHeight": "1080",
-            "size": "1024x576",
-            "width": "1600",
-            "height": "1080"
+            "showText": false
           },
-          "articleLayout": false,
-          "alias": "wowslider",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/image1.jpg",
+              "width": 1400
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=ilF1393cYWc&feature=emb_logo",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "text": "<p>Cut down the development time with drag-and-drop website builder.</p>",
           "_tags": [
-            "Extension"
+            "Theme"
           ],
-          "_name": "wowslider",
-          "_anchor": "wowslider-6"
+          "_name": "video1",
+          "_anchor": "video1-9"
         }
       ]
     },
@@ -305,13 +265,13 @@
               "color": "#ffffff"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
+              "background": "#c200af"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#000000!important"
+              "background": "#e600cf!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#000000"
+              "background": "#f500dd"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -334,13 +294,13 @@
             "sticky": true,
             "collapsed": true,
             "transparent": false,
-            "bgColor": "#000000",
+            "bgColor": "#f500dd",
             "fontSize": "4",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"tel:6506258991\">CALL NOW!</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"tel:6506258991\">CALL NOW!</a></li>",
           "logo": {
             "image": {
               "active": true,
