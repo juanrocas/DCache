@@ -211,13 +211,16 @@
               "color": "#fff",
               "text-transform": "uppercase",
               "margin-bottom": "0"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "center"
             }
           },
           "_params": {
             "showTitle": false,
             "showText": true,
             "showButtons": true,
-            "buttonAlign": "left",
+            "buttonAlign": "center",
             "showArrow": false,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-1920x1280.jpg",

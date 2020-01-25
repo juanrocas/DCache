@@ -793,6 +793,9 @@ blockquote {
   text-transform: uppercase;
   margin-bottom: 0;
 }
+#header3-a .mbr-section-subtitle {
+  text-align: center;
+}
 #menu-3 .hide-buttons .nav-btn {
   display: none !important;
 }
