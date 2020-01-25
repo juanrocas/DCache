@@ -236,7 +236,7 @@
             },
             "overlay": true,
             "overlayColor": "#000000",
-            "overlayOpacity": "0.7"
+            "overlayOpacity": "0.8"
           },
           "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
           "title": "BEAUTIFUL<br>MOBILE<br>WEBSITES",
