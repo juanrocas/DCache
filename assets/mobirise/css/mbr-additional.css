@@ -872,6 +872,12 @@ blockquote {
   letter-spacing: 2px;
   color: #f500dd;
 }
+#custom-html-e {
+  /* Type valid CSS here */
+}
+#custom-html-e .my-image {
+  width: 100%;
+}
 #team1-c H1 {
   color: #ffffff;
 }

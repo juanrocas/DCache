@@ -28,7 +28,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.1",
     "siteFonts": [],
-    "uniqCompNum": 14,
+    "uniqCompNum": 15,
     "versionPublish": "4.10.1",
     "screenshot": "screenshot.png"
   },
@@ -524,6 +524,22 @@
           ],
           "_name": "features1",
           "_anchor": "features1-b"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "\n\n<div id=\"frameTitle\" class=\"embedded-widget-title\" style=\"font-size: 23px; color: #333;font-family:Arial, Helvetica, sans-serif; line-height:24px; padding: 18px 10px 8px; text-align: center; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;\">Book Now</div>\n<div class=\"vagaro\" style=\"width:250px; padding:0; border:0; margin:0 auto; text-align:center;\"><style>.vagaro a {font-size:14px; color:#AAA; text-decoration:none;}</style><a href=\"https://sales.vagaro.com/\">Powered by Vagaro</a>&nbsp;<a href=\"https://sales.vagaro.com/salon-software\">Salon Software</a>,&nbsp;<a href=\"https://sales.vagaro.com/spa-software\">Spa Software</a>&nbsp;&amp;&nbsp;<a href=\"https://sales.vagaro.com/fitness-software\">Fitness Software</a>{JS_CODE_0}</div>",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-e",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script type=\"text/javascript\" src=\"https://www.vagaro.com//resources/WidgetEmbeddedLoader/OZqnCpSoCp4cT3qmV35y6RuSdBuOc1WJD1wOc1WO61Ctdg4tjxMG9pUxapkUcPCu7gCmjZcoapOUc0?v=gW3yaBfpgh0KhLBMAMG8gy498cJoxztwWkJJeOafNRuW#\"></script>"
+          ]
         },
         {
           "_params": {
