@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "DCache",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -445,7 +445,7 @@
           "person1": "Mary Ureño",
           "person2": "Jenny Garcia",
           "person3": "Victor Fuentes\r",
-          "person4": "Eva Cortes",
+          "person4": "<a href=\"https://dcachebeautysalon.setmore.com/resourcebookingpage/rc3c91583691246921\">Eva Cortes</a>",
           "subtitle1": "Stilista",
           "subtitle2": "Stilista",
           "subtitle3": "Stilista y diseñador",
@@ -497,9 +497,10 @@
               "src": "@PROJECT_PATH@/assets/images/img-9101-600x600.jpg",
               "class": "features-img",
               "width": 600,
-              "link": "",
+              "link": "https://dcachebeautysalon.setmore.com/resourcebookingpage/rc3c91583691246921",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "alias": "colorm/components",
@@ -560,7 +561,7 @@
           "subtitle": "This new-found knowledge may then be used by engineers to create new tools and machines.",
           "person1": "Yaneth Mejia\r",
           "person2": "Gabriela Arreola",
-          "person3": "Jose Balanta",
+          "person3": "<a href=\"https://dcachebeautysalon.setmore.com/resourcebookingpage/r661f1583690653096\">Jose Balanta</a>",
           "person4": "Maritza Morataya",
           "subtitle1": "Estilista, Diseñadora, Manicurista",
           "subtitle2": "Estilista",
@@ -602,9 +603,10 @@
               "src": "@PROJECT_PATH@/assets/images/img-9100-600x800.jpg",
               "class": "features-img",
               "width": 600,
-              "link": "",
+              "link": "https://dcachebeautysalon.setmore.com/resourcebookingpage/r661f1583690653096",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "media4": {
