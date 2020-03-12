@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "DCache",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -240,7 +240,7 @@
           "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
           "title": "BEAUTIFUL<br>MOBILE<br>WEBSITES",
           "text": "<span style=\"font-weight: normal;\">FULL SERVICE BEAUTY SALON</span><br><span style=\"font-weight: normal;\">salon de belleza con todos los servicios</span>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">ESPAÑOL</a> <a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://www.vagaro.com/dcache\" data-toolbar=\"-mbrBtnMove\">ENGLISH</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">ESPAÑOL</a> <a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://dcachebeautysalon.setmore.com/\" data-toolbar=\"-mbrBtnMove\">ENGLISH</a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
