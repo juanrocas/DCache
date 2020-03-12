@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 
 
 
@@ -10,11 +8,11 @@ textarea,
 .mbr-section-text,
 .mbr-company .list-group-text,
 .panel-body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .mbr-footer-content li,
 .mbr-footer .mbr-contacts li {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .alert,
 .mbr-section-title,
@@ -22,7 +20,7 @@ textarea,
 .mbr-gallery-title,
 .mbr-map [data-state-details],
 .mbr-price {
-  font-family: 'Arvo', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .mbr-footer-content h1,
 .mbr-footer .mbr-contacts h1,
@@ -36,7 +34,7 @@ textarea,
 .mbr-footer .mbr-contacts p strong,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
-  font-family: 'Arvo', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .btn {
   border-radius: 2.6em;
@@ -54,14 +52,14 @@ textarea,
   font-style: normal;
 }
 .mbr-author-name {
-  font-family: 'Arvo', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .mbr-author-desc {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
 }
 .mbr-plan-title {
-  font-family: 'Arvo', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
@@ -629,7 +627,7 @@ blockquote {
   font-style: normal;
 }
 .countdown .number {
-  font-family: 'Arvo', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .countdown1 .number-wrap {
   border-color: #f500dd;
@@ -674,7 +672,7 @@ blockquote {
 .person-info .title3,
 .team1 .title4,
 .person-info .title4 {
-  font-family: 'Arvo', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .team1 .subtitle1,
 .person-info .subtitle1,
@@ -694,7 +692,7 @@ blockquote {
 .person-info .text3,
 .team1 .text4,
 .person-info .text4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .person-info .subtitle1,
 .person-info .subtitle2,
@@ -703,13 +701,13 @@ blockquote {
   color: #f500dd;
 }
 .animated-bg1 .text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .features9 .timeline-panel h4 {
-  font-family: 'Arvo', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .features9 .timeline-panel p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .features9 .date-normal p {
   font-family: 'Montserrat', sans-serif;
@@ -863,21 +861,6 @@ blockquote {
 #menu-3 .dropdown-item[aria-expanded="true"] {
   color: #f500dd!important;
 }
-#features1-b .mbr-section-title {
-  font-weight: 700;
-  color: #f500dd;
-}
-#features1-b .mbr-section-subtitle {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #f500dd;
-}
-#custom-html-e {
-  /* Type valid CSS here */
-}
-#custom-html-e .my-image {
-  width: 100%;
-}
 #team1-c H1 {
   color: #ffffff;
 }
@@ -898,4 +881,13 @@ blockquote {
 }
 #team1-c .text2 {
   color: #333333;
+}
+#team1-d .subtitle2 {
+  color: #000000;
+}
+#team1-d .title2 {
+  color: #000000;
+}
+#team1-d .text2 {
+  color: #bdc3c7;
 }

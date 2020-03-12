@@ -13,9 +13,9 @@
         "infoColor": "#3498db",
         "warningColor": "#ffffff",
         "dangerColor": "#f500dd",
-        "titleFont": "Arvo",
+        "titleFont": "Montserrat",
         "subtitleFont": "Montserrat",
-        "textFont": "Open Sans",
+        "textFont": "Montserrat",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false
@@ -28,7 +28,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.1",
     "siteFonts": [],
-    "uniqCompNum": 15,
+    "uniqCompNum": 16,
     "versionPublish": "4.10.1",
     "screenshot": "screenshot.png"
   },
@@ -350,196 +350,71 @@
           "_anchor": "menu-3"
         },
         {
-          "_styles": {
-            ".mbr-section-title": {
-              "font-weight": "700",
-              "color": "#f500dd"
-            },
-            ".mbr-section-subtitle": {
-              "text-transform": "uppercase",
-              "letter-spacing": "2px",
-              "color": "#f500dd"
-            }
-          },
           "_params": {
-            "showTitle": true,
-            "showImages": true,
-            "showTitles": true,
-            "ShowTexts": true,
-            "showButtons": true,
-            "paddingTop": "2",
-            "paddingBottom": "0",
-            "columns": 4,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-1920x1280.jpg",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#2c3e50",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#000000",
-            "overlayOpacity": "0.5"
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
+            "timeout": 5,
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-3-1920x1370.jpg",
+                "contentAlign": "center",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "title": "CORTES",
+                "overlay": true,
+                "overlayOpacity": "0.2",
+                "text": "Damas. Caballeros y Niños",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://dcachebeautysalon.setmore.com/\" data-toolbar=\"-mbrBtnMove\">Reserva</a> "
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-4-1920x1280.jpg",
+                "contentAlign": "center",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "title": "SALON",
+                "overlay": true,
+                "overlayOpacity": "0.2",
+                "text": "Color, Highlights, Cepillado, Secado, Peinados, Keratina y Mas!",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://dcachebeautysalon.setmore.com/\" data-toolbar=\"-mbrBtnMove\">Reserva</a> "
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-9-1920x1280.jpg",
+                "contentAlign": "center",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "title": "BARBERÍA",
+                "overlay": true,
+                "overlayOpacity": "0.2",
+                "text": "Afeitada, Corte y Delineado de Barba, Mostacho y Cejas",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://dcachebeautysalon.setmore.com/\" data-toolbar=\"-mbrBtnMove\">Reserva</a> "
+              }
+            ]
           },
-          "media1": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-2-1920x1370.jpg",
-              "class": "features-img",
-              "width": 600,
-              "link": "page1.html",
-              "alt": "",
-              "title": ""
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "phone",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "media2": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-4-1920x1280.jpg",
-              "class": "features-img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "edit",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "media3": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x400.jpg",
-              "class": "features-img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "briefcase",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "media4": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x400.jpg",
-              "class": "features-img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "media5": {
-            "image": {
-              "active": true,
-              "src": "@THEME_PATH@/components/_images/features/05.jpg",
-              "class": "features-img",
-              "width": 600
-            },
-            "iconFont": {
-              "active": false,
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "briefcase",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "media6": {
-            "image": {
-              "active": true,
-              "src": "@THEME_PATH@/components/_images/features/06.jpg",
-              "class": "features-img",
-              "width": 600
-            },
-            "iconFont": {
-              "active": false,
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title": "<span style=\"font-weight: normal;\">SERVICIOS</span>",
-          "title1": "Bootstrap 4",
-          "subtitle1": "<b>CORTE DE CABELLO</b>",
-          "caption1": "Corte de cabello para Mujeres, caballeros y Niños&nbsp;",
-          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">reserva</a>",
-          "title2": "Responsive",
-          "subtitle2": "<b>Color</b>",
-          "caption2": "Servicio completo de tintura",
-          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">reserva</a>",
-          "title3": "Web Fonts",
-          "subtitle3": "<b>highlights</b>",
-          "caption3": "Servicio completo de Highlights",
-          "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">RESERVA</a>",
-          "title4": "Unlimited Sites",
-          "subtitle4": "<b>shampoo, cepillado y más!</b>",
-          "caption4": "Variedad de servicios adicionales",
-          "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">RESERVA</a>",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "buttons5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "buttons6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrow-left.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrow-right.png\">",
+          "articleLayout": false,
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "features1",
-          "_anchor": "features1-b"
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "\n\n<div id=\"frameTitle\" class=\"embedded-widget-title\" style=\"font-size: 23px; color: #333;font-family:Arial, Helvetica, sans-serif; line-height:24px; padding: 18px 10px 8px; text-align: center; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;\">Book Now</div>\n<div class=\"vagaro\" style=\"width:250px; padding:0; border:0; margin:0 auto; text-align:center;\"><style>.vagaro a {font-size:14px; color:#AAA; text-decoration:none;}</style><a href=\"https://sales.vagaro.com/\">Powered by Vagaro</a>&nbsp;<a href=\"https://sales.vagaro.com/salon-software\">Salon Software</a>,&nbsp;<a href=\"https://sales.vagaro.com/spa-software\">Spa Software</a>&nbsp;&amp;&nbsp;<a href=\"https://sales.vagaro.com/fitness-software\">Fitness Software</a>{JS_CODE_0}</div>",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-e",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script type=\"text/javascript\" src=\"https://www.vagaro.com//resources/WidgetEmbeddedLoader/OZqnCpSoCp4cT3qmV35y6RuSdBuOc1WJD1wOc1WO61Ctdg4tjxMG9pUxapkUcPCu7gCmjZcoapOUc0?v=gW3yaBfpgh0KhLBMAMG8gy498cJoxztwWkJJeOafNRuW#\"></script>"
-          ]
+          "_name": "slider",
+          "_anchor": "slider-f"
         },
         {
           "_params": {
@@ -552,11 +427,11 @@
             "bgItem4": "#212121",
             "paddingTop": 2,
             "paddingBottom": 0,
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-6-1920x1280.jpg",
             "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgColor": "#000000",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -619,7 +494,7 @@
           "media4": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x398.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-9101-600x600.jpg",
               "class": "features-img",
               "width": 600,
               "link": "",
@@ -661,7 +536,7 @@
           "_params": {
             "showTitle": false,
             "showSubtitle": false,
-            "rows": "1",
+            "rows": "2",
             "bgItem1": "#eeeeee",
             "bgItem2": "#ffffff",
             "bgItem3": "#d2dde4",
@@ -684,17 +559,17 @@
           "title": "Our Team",
           "subtitle": "This new-found knowledge may then be used by engineers to create new tools and machines.",
           "person1": "Yaneth Mejia\r",
-          "person2": "",
-          "person3": "Barry Bostwick",
-          "person4": "Anna Cameron",
+          "person2": "Gabriela Arreola",
+          "person3": "Jose Balanta",
+          "person4": "Maritza Morataya",
           "subtitle1": "Estilista, Diseñadora, Manicurista",
-          "subtitle2": "",
-          "subtitle3": "DESIGNER",
-          "subtitle4": "PHOTOGRAPHER",
+          "subtitle2": "Estilista",
+          "subtitle3": "Barbero",
+          "subtitle4": "Estilista",
           "caption1": "10 años de experiencia. \n<br>\n<br>Me encanta la peluqueria y todo lo relacionado con la belleza!",
-          "caption2": "",
-          "caption3": "In daily life, maybe you have so familiar with a number of daily necessities, well, do you .",
-          "caption4": "Every year more than four million traffic lights use an estimated three billion .",
+          "caption2": "10 años de experiencia. \n<br>\n<br>Me encanta la peluqueria y todo lo relacionado con la belleza!",
+          "caption3": "10 años de experiencia. \n<br>\n<br>Barbero y Basquetbolista.",
+          "caption4": "10 años de experiencia. \n<br>\n<br>Me encanta la peluqueria y todo lo relacionado con la belleza!",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
@@ -713,7 +588,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x431.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-4-600x400.jpg",
               "class": "features-img",
               "width": 600,
               "link": "",
@@ -724,15 +599,18 @@
           "media3": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/team/face3.png",
+              "src": "@PROJECT_PATH@/assets/images/img-9100-600x800.jpg",
               "class": "features-img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media4": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/team/face4.png",
+              "src": "@PROJECT_PATH@/assets/images/face4.png",
               "class": "features-img",
               "width": 600
             }
@@ -742,7 +620,18 @@
             "Theme"
           ],
           "_name": "team1",
-          "_anchor": "team1-d"
+          "_anchor": "team1-d",
+          "_styles": {
+            ".subtitle2": {
+              "color": "#000000"
+            },
+            ".title2": {
+              "color": "#000000"
+            },
+            ".text2": {
+              "color": "#bdc3c7"
+            }
+          }
         }
       ]
     }
