@@ -432,8 +432,8 @@
               {
                 "tags": "",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-9103-600x600.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-9103-600x600-480x270.jpg",
+                "image": "@PROJECT_PATH@/assets/images/eva-1280x1024.png",
+                "thumb": "@PROJECT_PATH@/assets/images/eva-1280x1024-800x640.png",
                 "alt": "",
                 "title": "",
                 "playVideo": false,
@@ -446,8 +446,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "image": "@PROJECT_PATH@/assets/images/img-9101-600x800.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-9101-600x800-480x270.jpg",
+                "image": "@PROJECT_PATH@/assets/images/balanta-1280x1024.png",
+                "thumb": "@PROJECT_PATH@/assets/images/balanta-1280x1024-800x640.png",
                 "alt": "",
                 "title": "",
                 "caption": "Jose Balanta - Barbero",
@@ -458,8 +458,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "image": "@PROJECT_PATH@/assets/images/img-9165-768x1024.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-9165-768x1024-768x432.jpg",
+                "image": "@PROJECT_PATH@/assets/images/jenny-1280x1024.png",
+                "thumb": "@PROJECT_PATH@/assets/images/jenny-1280x1024-800x640.png",
                 "alt": "",
                 "title": "",
                 "caption": "Jenny Garcia - Estilista",
@@ -470,12 +470,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "image": "@PROJECT_PATH@/assets/images/img-9164-720x960.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-9164-720x960-720x405.jpg",
+                "image": "@PROJECT_PATH@/assets/images/victor-1280x1024.png",
+                "thumb": "@PROJECT_PATH@/assets/images/victor-1280x1024-800x640.png",
                 "alt": "",
                 "title": "",
                 "caption": "Victor Fuentes - Estilista/Barbero",
-                "active": false
+                "active": true
               },
               {
                 "tags": "",
@@ -523,7 +523,7 @@
                 "alt": "",
                 "title": "",
                 "caption": "Maritza Morataya - Estilista",
-                "active": true
+                "active": false
               }
             ]
           },
