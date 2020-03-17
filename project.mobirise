@@ -28,7 +28,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.1",
     "siteFonts": [],
-    "uniqCompNum": 16,
+    "uniqCompNum": 20,
     "versionPublish": "4.10.1",
     "screenshot": "screenshot.png"
   },
@@ -417,223 +417,126 @@
           "_anchor": "slider-f"
         },
         {
+          "_inherit": "gallery1",
           "_params": {
-            "showTitle": true,
-            "showSubtitle": true,
-            "rows": "2",
-            "bgItem1": "#333333",
-            "bgItem2": "#ffc80a",
-            "bgItem3": "#d2dde4",
-            "bgItem4": "#212121",
-            "paddingTop": 2,
-            "paddingBottom": 0,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-6-1920x1280.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#000000",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": "0.7"
-          },
-          "title": "Nuestro Estilistas",
-          "subtitle": "Conoce nuestros estilistas y reserva tu cita con tu preferido",
-          "person1": "Mary Ureño",
-          "person2": "Jenny Garcia",
-          "person3": "Victor Fuentes\r",
-          "person4": "<a href=\"https://dcachebeautysalon.setmore.com/resourcebookingpage/rc3c91583691246921\">Eva Cortes</a>",
-          "subtitle1": "Stilista",
-          "subtitle2": "Stilista",
-          "subtitle3": "Stilista y diseñador",
-          "subtitle4": "Stilista y Manicurista",
-          "caption1": "10 años de experiencia.&nbsp;<br><br>Me encanta la peluqueria y todo lo relacionado con la belleza!",
-          "caption2": "10 años de experiencia. \n<br>\n<br>Me encanta la peluqueria y todo lo relacionado con la belleza!",
-          "caption3": "10 años de experiencia. \n<br>\n<br>Me encanta la peluqueria y todo lo relacionado con la belleza!",
-          "caption4": "10 años de experiencia. \n<br>\n<br>Me encanta la peluqueria y todo lo relacionado con la belleza!",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
-          "media1": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x413.jpg",
-              "class": "features-img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media2": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/face2.png",
-              "class": "features-img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media3": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-2-600x400.jpg",
-              "class": "features-img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media4": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-9101-600x600.jpg",
-              "class": "features-img",
-              "width": 600,
-              "link": "https://dcachebeautysalon.setmore.com/resourcebookingpage/rc3c91583691246921",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
+            "showBullets": false,
+            "fullWidth": false,
+            "spacing": "1",
+            "paddingTop": 4,
+            "paddingBottom": "4",
+            "filterBgColor": false,
+            "bgColor": "#fff",
+            "showText": true,
+            "filter": true,
+            "images": [
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-9103-600x600.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9103-600x600-480x270.jpg",
+                "alt": "",
+                "title": "",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "caption": "Eva Cortes - Estilista",
+                "active": false
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/img-9101-600x800.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9101-600x800-480x270.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Jose Balanta - Barbero",
+                "active": false
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/img-9165-768x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9165-768x1024-768x432.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Jenny Garcia - Estilista",
+                "active": false
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/img-9164-720x960.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9164-720x960-720x405.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Victor Fuentes - Estilista/Barbero",
+                "active": false
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1-600x398.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1-600x398-398x223.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Mary Ureno - Estilista",
+                "active": false
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1-600x398.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1-600x398-398x223.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Gabriela Arreola - Estilista",
+                "active": false
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1-600x398.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1-600x398-398x223.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Yaneth Mejia - Estilista",
+                "active": false
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1-600x398.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1-600x398-398x223.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Maritza Morataya - Estilista",
+                "active": true
+              }
+            ]
           },
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "team1",
-          "_anchor": "team1-c",
-          "_styles": {
-            "H1": {
-              "color": "#ffffff"
-            },
-            "H3": {
-              "color": "#ffffff"
-            },
-            ".title1": {
-              "color": "#ffffff"
-            },
-            ".text1": {
-              "color": "#ffffff"
-            },
-            ".subtitle2": {
-              "color": "#666666"
-            },
-            ".title2": {
-              "color": "#333333"
-            },
-            ".text2": {
-              "color": "#333333"
-            }
-          }
-        },
-        {
-          "_params": {
-            "showTitle": false,
-            "showSubtitle": false,
-            "rows": "2",
-            "bgItem1": "#eeeeee",
-            "bgItem2": "#ffffff",
-            "bgItem3": "#d2dde4",
-            "bgItem4": "#212121",
-            "paddingTop": "0",
-            "paddingBottom": 0,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/pricing-table/pricing-table-bg.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#ecf0f1",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "Our Team",
-          "subtitle": "This new-found knowledge may then be used by engineers to create new tools and machines.",
-          "person1": "Yaneth Mejia\r",
-          "person2": "Gabriela Arreola",
-          "person3": "<a href=\"https://dcachebeautysalon.setmore.com/resourcebookingpage/r661f1583690653096\">Jose Balanta</a>",
-          "person4": "Maritza Morataya",
-          "subtitle1": "Estilista, Diseñadora, Manicurista",
-          "subtitle2": "Estilista",
-          "subtitle3": "Barbero",
-          "subtitle4": "Estilista",
-          "caption1": "10 años de experiencia. \n<br>\n<br>Me encanta la peluqueria y todo lo relacionado con la belleza!",
-          "caption2": "10 años de experiencia. \n<br>\n<br>Me encanta la peluqueria y todo lo relacionado con la belleza!",
-          "caption3": "10 años de experiencia. \n<br>\n<br>Barbero y Basquetbolista.",
-          "caption4": "10 años de experiencia. \n<br>\n<br>Me encanta la peluqueria y todo lo relacionado con la belleza!",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
-          "media1": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-3-600x400.jpg",
-              "class": "features-img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media2": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-4-600x400.jpg",
-              "class": "features-img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media3": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-9100-600x800.jpg",
-              "class": "features-img",
-              "width": 600,
-              "link": "https://dcachebeautysalon.setmore.com/resourcebookingpage/r661f1583690653096",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "media4": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/face4.png",
-              "class": "features-img",
-              "width": 600
-            }
-          },
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "team1",
-          "_anchor": "team1-d",
-          "_styles": {
-            ".subtitle2": {
-              "color": "#000000"
-            },
-            ".title2": {
-              "color": "#000000"
-            },
-            ".text2": {
-              "color": "#bdc3c7"
-            }
-          }
+          "articleLayout": false,
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">",
+          "allItem": "click para seleccionar una cita con su estilista favorito/a",
+          "_name": "gallery3",
+          "_anchor": "gallery3-j"
         }
       ]
     }
